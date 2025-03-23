@@ -6,10 +6,10 @@ const person = {
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "Design Engineer",
+  role: "Full Stack Developer",
   avatar: "/images/avatar.jpg",
-  location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
+  location: "Atlanta, GA", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  languages: ["English"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter = {
@@ -17,8 +17,7 @@ const newsletter = {
   title: <>Subscribe to {person.firstName}'s Newsletter</>,
   description: (
     <>
-      I occasionally write about design, technology, and share thoughts on the intersection of
-      creativity and engineering.
+      I occasionally write about new advancements in technology, and share thoughts on the current impacts of software engineering.
     </>
   ),
 };
@@ -29,12 +28,12 @@ const social = [
   {
     name: "GitHub",
     icon: "github",
-    link: "https://github.com/once-ui-system/nextjs-starter",
+    link: "https://github.com/asrira428",
   },
   {
     name: "LinkedIn",
     icon: "linkedin",
-    link: "https://www.linkedin.com/company/once-ui/",
+    link: "https://www.linkedin.com/in/anirudh-sriram-b106291b0/",
   },
   {
     name: "X",
@@ -44,7 +43,7 @@ const social = [
   {
     name: "Email",
     icon: "email",
-    link: "mailto:example@gmail.com",
+    link: "mailto:asrira428@gmail.com",
   },
 ];
 
@@ -52,11 +51,10 @@ const home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Design engineer and builder</>,
+  headline: <>Full Stack engineer and builder</>,
   subline: (
     <>
-      I'm Selene, a design engineer at <InlineCode>FLY</InlineCode>, where I craft intuitive
-      <br /> user experiences. After hours, I build my own projects.
+      I'm Anirudh, a Computer Science/Engineering student at Georgia Tech, with primary experience in Machine Learning Applications, and AI Applied Data Analysis.
     </>
   ),
 };
@@ -81,9 +79,7 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        I'm a full-stack developer and computer science student based in Atlanta with a passion for turning complex problems into intuitive, high-impact digital solutions. My work spans web and mobile development, AI-powered tools, and building seamless experiences that connect front-end design with back-end architecture.
       </>
     ),
   },
@@ -92,17 +88,21 @@ const about = {
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "Weill Cornell Medicine",
+        timeframe: "May 2024 - August 2024",
+        role: "AI/ML Intern",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
+            Designed deep learning models in Python and R for scalable preprocessing of single-cell RNA-seq datasets using distributed systems and AWS services, 
+            enabling scalable data analysis and reducing processing time by 40\%.
           </>,
           <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
+            Designed and implemented machine learning models and statistical frameworks using achieving 87\% accuracy using efficient algorithms and scalable tools like Scanpy, 
+            TensorFlow, PyTorch, Docker and Scikit for sample stratification.
+          </>,
+          <>
+            Built and automated data visualization Saas workflows with Matplotlib and Seaborn to illustrate CIN-driven changes in the tumor microenvironment, 
+            reducing manual processing time by 50\%.
           </>,
         ],
         images: [
