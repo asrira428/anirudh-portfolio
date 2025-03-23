@@ -12,16 +12,6 @@ const person = {
   languages: ["English"], // optional: Leave the array empty if you don't want to display languages
 };
 
-const newsletter = {
-  display: true,
-  title: <>Subscribe to {person.firstName}'s Newsletter</>,
-  description: (
-    <>
-      I occasionally write about new advancements in technology, and share thoughts on the current impacts of software engineering.
-    </>
-  ),
-};
-
 const social = [
   // Links are automatically displayed.
   // Import new icons in /once-ui/icons.ts
@@ -51,7 +41,7 @@ const home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Full Stack engineer and builder</>,
+  headline: <>Machine Learning and Full Stack engineer</>,
   subline: (
     <>
       I'm Anirudh, a Computer Science/Engineering student at Georgia Tech, with primary experience in Machine Learning Applications, and AI Applied Data Analysis.
@@ -265,4 +255,4 @@ const gallery = {
   ],
 };
 
-export { person, social, newsletter, home, about, blog, work, gallery };
+export { person, social, home, about, work };
