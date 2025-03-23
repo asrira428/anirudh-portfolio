@@ -88,45 +88,45 @@ const about = {
     title: "Work Experience",
     experiences: [
       {
-        company: "Weill Cornell Medicine",
+        company: "Memorial Sloan Kettering / Weill Cornell Medicine",
         timeframe: "May 2024 - August 2024",
         role: "AI/ML Intern",
         achievements: [
           <>
             Designed deep learning models in Python and R for scalable preprocessing of single-cell RNA-seq datasets using distributed systems and AWS services, 
-            enabling scalable data analysis and reducing processing time by 40\%.
+            enabling scalable data analysis and reducing processing time by 40%.
           </>,
           <>
-            Designed and implemented machine learning models and statistical frameworks using achieving 87\% accuracy using efficient algorithms and scalable tools like Scanpy, 
+            Designed and implemented machine learning models and statistical frameworks using achieving 87% accuracy using efficient algorithms and scalable tools like Scanpy, 
             TensorFlow, PyTorch, Docker and Scikit for sample stratification.
           </>,
           <>
             Built and automated data visualization Saas workflows with Matplotlib and Seaborn to illustrate CIN-driven changes in the tumor microenvironment, 
-            reducing manual processing time by 50\%.
+            reducing manual processing time by 50%.
           </>,
         ],
         images: [
           // optional: leave the array empty if you don't want to display images
-          {
-            src: "/images/projects/project-01/cover-01.jpg",
-            alt: "Once UI Project",
-            width: 16,
-            height: 9,
-          },
+          // {
+          //   src: "/images/projects/project-01/cover-01.jpg",
+          //   alt: "Once UI Project",
+          //   width: 16,
+          //   height: 9,
+          // },
         ],
       },
       {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
+        company: "Georgia Tech Dr. Ahmet Coskun Lab",
+        timeframe: "09/2023 - 12/2024",
         role: "Lead Designer",
         achievements: [
           <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
+            Designed clustering algorithms for Alzheimer’s patient gene expression analysis, leveraging unsupervised 
+            learning techniques and statistical machine learning algorithms to optimize performance for datasets of 1M+ records.
           </>,
           <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
+            Developed fault-tolerant workflows integrating Kubernetes, NLP models, Python, PyTorch and Sklearn to automate
+             high-throughput analyses via Bayesian statistical methods and optimize image segmentation and improve scalability.
           </>,
         ],
         images: [],
@@ -138,12 +138,8 @@ const about = {
     title: "Studies",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
-      },
-      {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
+        name: "Georgia Institute of Technology",
+        description: <>Computer Science, Engineering, Industrial Design</>,
       },
     ],
   },
@@ -152,36 +148,23 @@ const about = {
     title: "Technical skills",
     skills: [
       {
-        title: "Figma",
-        description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
+        title: "Languages",
+        description: <>Python, R/RStudio, Java, React.js, HTML, C, JavaScript, TypeScript, SQL, Swift, C++, Ruby</>,
+        // optional: leave the array empty if you don't want to display images
+        images: [        ],
+      },
+      {
+        title: "Tools",
+        description: <>IntelliJ, RStudio, TensorFlow, PyTorch, AWS, Git, scikit-learn, Tableau, REST API, Flask, Docker, Firebase</>,
         // optional: leave the array empty if you don't want to display images
         images: [
-          {
-            src: "/images/projects/project-01/cover-02.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-          {
-            src: "/images/projects/project-01/cover-03.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
         ],
       },
       {
-        title: "Next.js",
-        description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
+        title: "Certifications and Skills",
+        description: <>AWS Certified Cloud Practicioner, NVIDIA Certified Infiniband Essentials, AWS, Restful API Integration, Full-Stack Development, Machine Learning, Deep Learning, Frontend Development, Single Cell Analysis, ETL Pipelines, Multidisciplinary Collaboration, Mentoring</>,
         // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-04.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
+        images: [],
       },
     ],
   },
